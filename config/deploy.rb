@@ -1,7 +1,7 @@
 application = ENV['F1_SERVER_IP']
 port = ENV['F1_SERVER_PORT']
 user = ENV['F1_DEPLOY_USER']
-deploy_to = '/var/www/apps/f1.ruby.mn'
+deploy_to = '/var/www/apps/current/f1.ruby.mn'
 
 set :application, application
 set :user, user
